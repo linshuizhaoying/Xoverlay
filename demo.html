@@ -1,0 +1,32 @@
+<!doctype html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title>Xoverlay Demo</title> 
+</head>
+<link rel="stylesheet" href="Xoverlay.css">
+<body>
+    <h1>Xoverlay Demo</h1>
+    <button id="test">测试打开1</button>
+    <!-- <button id="test2">测试打开2</button> -->
+</body>
+<script src="Xoverlay.js"></script>
+
+<script>
+	var Xoverlay = new Xoverlay({
+	    target:'#test',
+		title:"6666",
+		ok:function(){console.log('233')},
+		cancel:function(){console.log("cancel");return false},
+		content:"This is Content2"
+	}).setWidth(460).setHeight(400)
+
+    // var Xoverlay2 = new Xoverlay({
+    //     target:'#test2',
+    //     title:"pppppp",
+    //     ok:function(){console.log('22223');return false},
+    //     cancel:function(){console.log("cancel")},
+    //     content:"This is Content3"
+    // }).setWidth(560).setHeight(300)
+</script>
+</html>
