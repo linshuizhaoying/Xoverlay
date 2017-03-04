@@ -27,11 +27,17 @@ Beta1.0：
 支持链式调用
 
 支持设置以下参数:
+
 1.width
+
 2.height
+
 3.弹出层标题title,有title自定义添加x符号
+
 4.弹出层内容content
+
 5.添加Ok事件自动添加Ok按钮
+
 6.添加cancel事件自动添加cancel按钮
 
 # 后续功能待开发
